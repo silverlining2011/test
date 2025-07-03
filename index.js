@@ -20,7 +20,7 @@ app.get ('/random_stuff', (req, res) => { // define a route for the default URL
     res.sendFile(__dirname + '/random_stuff.html') // send a response to the client
 });
 
-app.get ('/1op', (req, res) => { // define a route for the default URL
+app.get ('/test/1op', (req, res) => { // define a route for the default URL
     res.sendFile(__dirname + '/???.html') // send a response to the client
 });
 
