@@ -4,7 +4,7 @@ const app = express(); // create an express application
 const port = 3000; // define the port number
 
 app.get ('/', (req, res) => { // define a route for the default URL
-    res.sendFile(__dirname + '/homepage.html') // send a response to the client
+    res.sendFile(__dirname + '/index.html') // send a response to the client
 });
 
 app.get ('/joke', (req, res) => { // define a route for the default URL
